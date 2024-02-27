@@ -8,16 +8,19 @@
   </head>
   <body>
     <div class="container">
+      <form>
       <div id="row">
         <p id="text">Enter the guess number</p>
         <input type="text" id="num" />
       </div>
       <div class="row">
-        <button id="btn">Click Me!</button>
+        <button id="btn" onclick="checkWinner(event)">Click Me!</button>
       </div>
     </div>
+    </form>
     <div id="show">
-      <p id="result">Result will be displayed here!!</p>
+      <p id="result"></p>
     </div>
+     <script src="script.js"></script>
   </body>
 </html>

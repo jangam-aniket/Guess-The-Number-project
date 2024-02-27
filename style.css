@@ -32,6 +32,7 @@ body {
 
 #btn {
   margin-top: 20px;
+  margin-left: 117px;
   padding: 5px;
   border-radius: 5px;
   background-color: greenyellow;
@@ -44,9 +45,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 52px;
-  width: 300px;
+  width: 600px;
   margin-top: 47px;
-  margin-left: 520px;
+  margin-left: 370px;
   background-color: cadetblue;
   border-radius: 20px;
 }
